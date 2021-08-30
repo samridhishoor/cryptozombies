@@ -1,9 +1,14 @@
 # cryptozombies
 # how to build a game on Ethereum for beginners on Solidity
+#---build a "Zombie Factory" to build an army of zombies.
+#---Our factory will maintain a database of all zombies in our army
+#---Our factory will have a function for creating new zombies
+#---Each zombie will have a random and unique appearance
+
 
 pragma solidity >=0.5.0 <0.6.0;
 
-contract ZombieFactory {
+ contract ZombieFactory {
 
     event NewZombie(uint zombieId, string name, uint dna);
 
